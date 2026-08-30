@@ -1,22 +1,58 @@
-# Jarvis Web Assistant
+# 🌐 Jarvis Web Assistant Portal
 
-## 📌 Description
-Welcome to **Jarvis Web Assistant**! This project is part of the curated software workspace.
+> **Modern web-accessible AI assistant dashboard built with Next.js 16, Vercel AI SDK, Radix UI, TypeScript, and Recharts analytics.**
+
+---
+
+## ✨ Features
+
+- ⚡ **Vercel AI SDK Integration**
+  - High-speed streaming AI chat using `@ai-sdk/openai` and `@ai-sdk/react`.
+- 🎨 **Radix UI & Tailwind CSS Components**
+  - Accessible, customizable UI suite (Dialogs, Tabs, Tooltips, Accordions, Toasts).
+- 📊 **Recharts Data Visualization**
+  - Interactive performance charts and system metrics overview.
+- 🌓 **Theme Management**
+  - Integrated Light and Dark mode theme provider (`next-themes`).
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router), React 19, TypeScript 5
+- **AI Gateway**: Vercel AI SDK (`ai`), OpenAI API
+- **UI Components**: Radix UI Primitives, Lucide Icons, Shadcn UI
+- **Styling**: Tailwind CSS, PostCSS
+
+---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-Ensure you have the required runtime environment installed for this project:
-- **Node.js** (if applicable for web/frontend components)
-- **Python 3.10+** (if applicable for AI/voice scripts)
-- **Java JDK 17+** (if applicable for Java applications)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Omkar4812x/Jarvis-Web-Assistant.git
+   cd Jarvis-Web-Assistant
+   ```
 
-### Installation & Execution
-1. Clone this repository to your local machine.
-2. Install dependencies:
-   - For Node.js projects: `npm install`
-   - For Python projects: `pip install -r requirements.txt` (or create a venv: `python -m venv venv`)
-3. Launch the application entry point.
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## 📄 License & Attribution
-Created and maintained as part of the Tech Hub projects collection.
+3. **Configure Environment Variables**:
+   Copy `.env.example` to `.env.local`:
+   ```env
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
+
+4. **Run Dev Server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:3000` in your browser.
+
+---
+
+## 📄 License
+
+Distributed under the MIT License.
